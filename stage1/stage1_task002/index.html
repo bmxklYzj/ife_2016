@@ -153,51 +153,98 @@
 </article>
 
 <aside class="aside">
-    <h2>这里是一个侧栏标题</h2>
+    <h2>这里是一个侧栏标题, 侧栏注册窗口标题</h2>
 
-    <h3 class="h3">侧栏注册窗口标题</h3>
 
     <!--<label> 标签的 for 属性应当与相关元素的 id 属性相同-->
     <form action="">
-        <label for="email">请输入邮箱地址：</label>
-        <input id="email" type="email" placeholder="这是一个文本输入框">
+        <table>
+            <tr>
+                <td class="right">
+                    <label for="email">请输入邮箱地址：</label>
+                </td>
+                <td>
+                    <input id="email" type="email" placeholder="这是一个文本输入框">
 
-        <p>邮箱地址请按要求格式输入</p>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <p>邮箱地址请按要求格式输入</p>
+                </td>
+            </tr>
 
-        <label for="pw">请输入密码：</label>
-        <input id="pw" type="password" placeholder="这是一个文本输入框">
-        <label for="pwConfirm">请重复输入密码：</label>
-        <input id="pwConfirm" type="password" placeholder="这是一个文本输入框">
-
-        <p>密码请为6-16为英文数字</p>
-
-        <span>性别：</span>
-        <label for="sex1">男</label>
-        <input id="sex1" type="radio" name="sexValue" value="男" checked>
-        <label for="sex2">女</label>
-        <input id="sex2" type="radio" name="sexValue" value="女">
-
-        <span>城市：</span>
-        <select name="city" id="city">
-            <option value="beijing">北京</option>
-            <option value="shenzhen">深圳</option>
-            <option value="shanghai">上海</option>
-        </select>
-
-        <span>爱好：</span>
-        <input type="checkbox" value="运动">运动
-        <input type="checkbox" value="艺术">艺术
-        <input type="checkbox" value="科学">科学
-
-        <span>个人描述：</span>
-        <textarea name="personDesc" id="" cols="30" rows="2" placeholder="输入个人描述"></textarea>
-
-        <input type="button" value="确认提交">
+            <tr>
+                <td class="right">
+                    <label for="pw">请输入密码：</label>
+                </td>
+                <td>
+                    <input id="pw" type="password" placeholder="这是一个文本输入框" value="1234">
+                </td>
+            </tr>
+            <tr>
+                <td class="right">
+                    <label for="pwConfirm">请重复输入密码：</label>
+                </td>
+                <td>
+                    <input id="pwConfirm" type="password" placeholder="这是一个文本输入框" value="1234">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <p>密码请为6-16为英文数字</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="right">
+                    <span>性别：</span>
+                </td>
+                <td>
+                    <label for="sex1">男</label>
+                    <input id="sex1" type="radio" name="sexValue" value="男" checked>
+                    <label for="sex2">女</label>
+                    <input id="sex2" type="radio" name="sexValue" value="女">
+                </td>
+            </tr>
+            <tr>
+                <td class="right">
+                    <span>城市：</span>
+                </td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="beijing">北京</option>
+                        <option value="shenzhen">深圳</option>
+                        <option value="shanghai">上海</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="right">
+                    <span>爱好：</span>
+                </td>
+                <td>
+                    <input type="checkbox" value="运动">运动
+                    <input type="checkbox" value="艺术">艺术
+                    <input type="checkbox" value="科学">科学
+                </td>
+            </tr>
+            <tr>
+                <td class="right">
+                    <span>个人描述：</span>
+                </td>
+                <td class="aside-ta">
+                    <textarea name="personDesc" id="" cols="50%" rows="5" placeholder="输入个人描述"></textarea>
+                </td>
+            </tr>
+        </table>
+        <input class="btn" type="button" value="确认提交">
     </form>
 </aside>
 
-<footer>
-    <p>版权所有&copy;</p>
+<footer class="footer">
+    版权所有&copy;
 </footer>
 </body>
 </html>
