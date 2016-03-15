@@ -1,0 +1,47 @@
+body{
+    line-height:1.4;
+    color:#333;
+    font-family:arial;
+    font-size: 12px;
+    background:white;
+}
+input,textarea,select{
+    font-size:12px;
+    font-size:100%;    
+    font-family:arial;
+    font-family:inherit;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+    margin:0;
+}
+h4,h5,h6{
+    font-size:1em;
+}
+ul,ol{
+    padding-left:0; 
+    list-style-type:none;
+}
+/*image with no-border*/
+a img{border:0;}
+img{border:0;}
+/*from: zxx  site: http://www.zhangxinxu.com/wordpress/2010/07/%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E5%AF%B9%E7%BD%91%E7%AB%99css%E8%BF%9B%E8%A1%8C%E6%9E%B6%E6%9E%84%E7%9A%84/*/
+.clear-fix {
+    *zoom:1
+}
+
+.clear-fix:before,.clearfix:after {
+    content: " ";
+    display: table
+}
+
+.clear-fix:after {
+    clear: both
+}
+
+/*以下自行修改*/
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
