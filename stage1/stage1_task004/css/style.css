@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+/*.main {*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*-webkit-transform: translate(-50%, -50%);*/
+    /*-moz-transform: translate(-50%, -50%);*/
+    /*-ms-transform: translate(-50%, -50%);*/
+    /*-o-transform: translate(-50%, -50%);*/
+    /*transform: translate(-50%, -50%);*/
+    /*width: 50%;*/
+    /*height: 30%;*/
+    /*background-color: #ccc;*/
+/*}*/
+/*.main布局的第二种方法*/
+.main {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    bottom: 25%;
+    left: 25%;
+    background: #ccc;
+}
+.left-top {
+    border-radius: 0 0 100% 0;
+    top: 0;
+    left: 0;
+}
+.right-bottom {
+    border-radius: 100% 0 0 0;
+    right: 0;
+    bottom: 0;
+}
+.round {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+}
+/*
+border-radius是由
+border-top-left-radius
+border-top-right-radius
+border-bottom-right-radius
+border-bottom-left-radius
+这四个属性合成的
+
+*/

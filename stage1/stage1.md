@@ -51,3 +51,50 @@ img标签要在figure标签中,而figcatption标签其实就是图片下的
 [demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task003/floatLayout.html)
 
 # stage1_task004
+[code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task004) 
+[demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task004/index.html)
+关于水平垂直居中的问题：
+>参考资料
+ 	• HTML和CSS高级指南之二——定位详解：大漠老师手把手教你，这次彻底搞懂定位问题
+ 	• Centering in CSS: A Complete Guide：完整讨论了不同情况下的居中方案，建议自己思考之后再看答案
+ 	• Get HTML & CSS Tips In Your Inbox：有人写了一个作弊工具生成居中代码，但是看着代码你明白为什么吗
+ 
+ 来自 <http://ife.baidu.com/task/detail?taskId=4>
+ 
+1. 水平居中：
+* inline||inline-*用text-align:center
+* block元素用margin: 0 auto;
+* 多个block元素：先变成inline-block类型，然后text-align:center
+ 如：`.div1,
+     .div2{
+     display:inline-block;
+     }
+     .container{
+     text-align:center;
+     }`
+2. 垂直居中：
+* single line单行
+    * 父元素没有高度，直接padding-top和padding-bottom设成相等的值就可以居中了
+    ` .container {
+     			width: 200px;
+     			/*height: 300px;*/
+     			background-color: #ccc;
+     			padding-top: 150px;
+     			padding-bottom: 150px;
+     		}`
+    * 父元素有高度，把文字的line-height设成父元素的高度即可
+    
+    .center-text-trick {
+       height: 100px;
+       line-height: 100px;
+       white-space: nowrap;
+     }
+     
+* multiple line多行
+    * 
+        display: table-cell;
+        vertical-align: middle;
+    * 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
