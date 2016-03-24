@@ -92,14 +92,110 @@ img标签要在figure标签中,而figcatption标签其实就是图片下的
      `
      
 * multiple line多行
-    * 
-        ```
+    *   设置相同的padding-top和padding-bottom
+    *   使用table-cell
+        `
         display: table-cell;
         vertical-align: middle;
-        ```
-    * 
-        ```
+        `
+    *   使用flex只支持IE10+
+        `
         display: flex;
-                justify-content: center;
-                flex-direction: column;
-        ```
+        justify-content: center;
+        flex-direction: column;
+        `
+    *   使用before伪元素
+        `
+        .container {
+            width: 300px;
+            height: 300px;
+            background-color: #ccc;
+        }
+        .container:before {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            /*width: 1%;*/
+            vertical-align: middle;
+        }
+        .container p{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        `
+*block垂直居中
+    * 高度已知，使用margin-top为本身高度一半的负值`
+    .parent {
+      position: relative;
+    }
+    .child {
+      position: absolute;
+      top: 50%;
+      height: 100px;
+      margin-top: -50px; /* account for padding and border if not using box-sizing: border-box; */
+    }
+    `
+    * 高度未知，使用transform: translateY(-50%)
+    `
+    .container {
+        width: 600px;
+        height: 600px;
+        background-color: #ccc;
+        position: relative;
+    }
+    .main {
+        width: 200px;
+        /*height: 200px;*/
+        background-color: #555;
+        position: absolute;
+        top: 50%;
+        /*margin-top: -100px;*/
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    `
+    * 父元素使用flex布局,只支持IE10+
+    `
+    .parent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    `
+3. 水平垂直居中
+    * 元素宽高已知
+    `
+    .parent {
+           position: relative;
+         }
+         
+        .child {
+           width: 300px;
+           height: 100px;
+           padding: 20px;
+         
+           position: absolute;
+           top: 50%;
+           left: 50%;
+         
+           margin: -70px 0 0 -170px;
+        }
+    `
+    
+    *   元素宽高未知
+    
+    `
+    .parent {
+      position: relative;
+    }
+    .child {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    `
+    
