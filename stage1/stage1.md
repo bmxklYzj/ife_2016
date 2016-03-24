@@ -33,8 +33,7 @@ img标签要在figure标签中,而figcatption标签其实就是图片下的
 # stage1_task002
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task002) 
 [demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task002/index.html)
-
-    ### 练习简单的css
+    练习简单的css
 
 # stage1_task003
 ##经典的三栏自适应布局有三种：圣杯布局、双飞翼布局、直接flaot布局
@@ -45,7 +44,7 @@ img标签要在figure标签中,而figcatption标签其实就是图片下的
 2. 圣杯布局
     因为.bd有个margin:0280px0180px;无法做到最外层的边框，所以放弃此布局
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task003) 
-[demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task003/shengBeiLayout.html)
+[demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task003/shengBieLayout.html)
 3. 直接float
     左右分别float left、right写在前面，然后中间部分写在最后，加个margin即可
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task003) 
