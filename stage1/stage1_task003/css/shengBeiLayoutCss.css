@@ -6,16 +6,10 @@ body{
 .bd {
     margin: 0 280px 0 180px;
     border: 1px solid #999;
-    padding: 20px;
+    /*padding: 20px;*/
     /*overflow: hidden;*/
-
 }
-/*.container,*/
-/*.sub,*/
-/*.extra {*/
-    /*padding-bottom: 3000px;*/
-    /*margin-bottom: -3000px;*/
-/*}*/
+
 .container {
     float: left;
     width: 100%;
