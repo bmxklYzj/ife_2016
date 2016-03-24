@@ -83,18 +83,23 @@ img标签要在figure标签中,而figcatption标签其实就是图片下的
      			padding-bottom: 150px;
      		}`
     * 父元素有高度，把文字的line-height设成父元素的高度即可
-    
-    .center-text-trick {
+    `
+                            .center-text-trick {
        height: 100px;
        line-height: 100px;
        white-space: nowrap;
      }
+     `
      
 * multiple line多行
     * 
+        ```
         display: table-cell;
         vertical-align: middle;
+        ```
     * 
+        ```
         display: flex;
-        justify-content: center;
-        flex-direction: column;
+                justify-content: center;
+                flex-direction: column;
+        ```
