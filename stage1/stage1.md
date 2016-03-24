@@ -7,7 +7,7 @@
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task001) 
 [demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task001/index.html)
 
-### 学习到了html5的一些新标签，如article,section,figure,figcaption,aside,nav等
+## 学习到了html5的一些新标签，如article,section,figure,figcaption,aside,nav等
 然后就是form表单中，需要加上label标签给对应的input，
 input的属性为radio时要实现单选，name必须相同
 
@@ -53,7 +53,15 @@ img标签要在figure标签中,而figcatption标签其实就是图片下的
 # stage1_task004
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task004) 
 [demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task004/index.html)
-关于水平垂直居中的问题：
+##此次画1/4圆，开始还以为要用图片，后来发现可以用border-radius属性
+border-radius是由
+border-top-left-radius
+border-top-right-radius
+border-bottom-right-radius
+border-bottom-left-radius
+这四个属性合成的
+
+##关于水平垂直居中的问题：
 >参考资料
  	• HTML和CSS高级指南之二——定位详解：大漠老师手把手教你，这次彻底搞懂定位问题
  	• Centering in CSS: A Complete Guide：完整讨论了不同情况下的居中方案，建议自己思考之后再看答案
