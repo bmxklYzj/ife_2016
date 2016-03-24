@@ -1,54 +1,68 @@
 body {
-    font: 14px/1.5 "Microsoft YaHei", "sans serif";
-    margin: 0px;
+    margin: 0;
     padding: 20px;
 }
-.bd {
-    background: #eee;
-    padding: 20px;
-}
+
 .bd {
     overflow: hidden;
-}
-.main,
-.side,
-.extra {
-    padding-bottom: 5000px;
-    margin-bottom: -5000px;
-}
-.p20 {
+    background-color: #eee;
     padding: 20px;
-}
-.bg {
-    background-color: #fff;
-}
-.main {
+    border: 1px solid #999;
 
+}
+.main-wrap {
     float: left;
     width: 100%;
 }
-
-.container {
-    margin: 0px 140px 0px 220px;
-    /*margin:0 20px 0 20px;*/
+.main,
+.sub,
+.extra {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+
 }
-
-.side {
+/*.main-wrap,*/
+/*.sub,*/
+/*.extra {*/
+    /*padding-bottom: 3000px;*/
+    /*margin-bottom: -3000px;*/
+/*}*/
+.main {
+    /*width: 100%;*/
+    height: auto;
+    margin: 0 140px 0 220px;
+    /*background-color: #ccc;*/
+}
+.sub {
     float: left;
-    width: 200px;
     margin-left: -100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    width: 200px;
+    height: 120px;
+    /*background-color: #888;*/
 }
 .extra {
-    width: 120px;
     float: left;
     margin-left: -120px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    width: 120px;
+    /*height: 300px;*/
+    /*background-color: #555;*/
+}
+
+.sub .logo img {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.sub .logo span {
+    margin-left: 20px;
+    float: left;
+}
+.extra img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
 }

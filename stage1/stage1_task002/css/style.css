@@ -46,7 +46,15 @@ body {
     margin: 2%;
     background-color: #fff;
     padding: 3% 2%;
-    /*border: 1px solid #CFCFCF;*/
+    -webkit-box-shadow: 2px 2px 2px #888;
+    -moz-box-shadow: 2px 2px 2px #888 ;
+    box-shadow: 2px 2px 2px #888 ;
+}
+.article:hover,
+.aside:hover {
+    -webkit-box-shadow: 5px 5px 5px #888;
+    -moz-box-shadow: 5px 5px 5px #888 ;
+    box-shadow: 5px 5px 5px #888 ;
 }
 
 .article .h3 {
@@ -62,6 +70,13 @@ body {
 .article .author {
     font-size: 0.8em;
     color: #888;
+}
+.article .pic {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 p {
