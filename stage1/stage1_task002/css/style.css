@@ -119,13 +119,20 @@ p {
     margin: 0 0 8% 0;
     color: #999;
 }
-.aside-ta {
-    position: relative;
+/*.aside-ta {*/
+    /*position: relative;*/
+/*}*/
+/*.aside-ta textarea {*/
+    /*position: absolute;*/
+    /*top: 10px;*/
+    /*vertical-align: middle;*/
+/*}*/
+.aside-personDesc {
+    vertical-align: top;
 }
-.aside-ta textarea {
-    position: absolute;
-    top: 10px;
-    vertical-align: middle;
+.aside-textarea {
+    resize: none;
+    width: 60%;
 }
 .aside .btn {
     border: 0;
