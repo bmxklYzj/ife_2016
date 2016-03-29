@@ -229,8 +229,7 @@ http://www.w3cplus.com/solution/border/border.html
 3. 熟练利用before和after伪类
 
 # stage1_task008
-[code](https://github.com/bmxklYzj/ife_2016/tree/master/stage1/stage1_task008) 
-[demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task008/index.html)
+
 
 利用媒体查询实现简单的栅格化布局
 参考网址：[w3cplus](http://www.w3cplus.com/blog/tags/172.html)
