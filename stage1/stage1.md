@@ -227,3 +227,10 @@ http://www.w3cplus.com/solution/border/border.html
     但是感觉自己此次还是没有完全还原设计图，主要是因为没有很细致的利用ps
     中的标尺等工具来度量，导致我自己的页面有些地方宽高与设计图一致
 3. 熟练利用before和after伪类
+
+# stage1_task008
+[code](https://github.com/bmxklYzj/ife_2016/tree/master/stage1/stage1_task006) 
+[demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task006/index.html)
+
+利用媒体查询实现简单的栅格化布局
+参考网址：[w3cplus](http://www.w3cplus.com/blog/tags/172.html)
