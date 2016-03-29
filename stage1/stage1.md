@@ -1,11 +1,11 @@
 #wram-up热身练习
  [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/warm-up) 
- [demo](http://bmxklyzj.github.io/demo/ife_2016/warm-up/blog.html)
+ [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task001/blog.html)
 主要是做了一个静态的博客，页面比较花哨
 
 # stage1_task001
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task001) 
-[demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task001/index.html)
+[demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task001/index.html)
 
 ## 学习到了html5的一些新标签，如article,section,figure,figcaption,aside,nav等
 然后就是form表单中，需要加上label标签给对应的input，
@@ -32,27 +32,27 @@ img标签要在figure标签中,而figcatption标签其实就是图片下的
 
 # stage1_task002
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task002) 
-[demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task002/index.html)
+[demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task002/index.html)
     练习简单的css
 
 # stage1_task003
 ##经典的三栏自适应布局有三种：圣杯布局、双飞翼布局、直接flaot布局
 1. 双飞翼布局
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task003) 
-[demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task003/index.html)
+[demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task003/index.html)
     双飞翼布局父元素加上min-width:500px可以防止极限情况下的混乱
 2. 圣杯布局
     因为.bd有个margin:0280px0180px;无法做到最外层的边框，所以放弃此布局
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task003) 
-[demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task003/shengBieLayout.html)
+[demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task003/shengBieLayout.html)
 3. 直接float
     左右分别float left、right写在前面，然后中间部分写在最后，加个margin即可
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task003) 
-[demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task003/floatLayout.html)
+[demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task003/floatLayout.html)
 
 # stage1_task004
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task004) 
-[demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task004/index.html)
+[demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task004/index.html)
 ##此次画1/4圆，开始还以为要用图片，后来发现可以用border-radius属性
 border-radius是由
 border-top-left-radius
@@ -214,7 +214,7 @@ border-bottom-left-radius
 
 # stage1_task006
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task006) 
-[demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task006/index.html)
+[demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task006/index.html)
 
 1. 利用border制作三角形
 `
