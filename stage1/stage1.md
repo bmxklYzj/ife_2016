@@ -207,3 +207,23 @@ border-bottom-left-radius
     }
     `
     
+# stage1_task005
+[code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task005) 
+[demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task005/index.html)
+在实验一的基础上修改，和实验二差不多，只是把框架改成了两栏布局，右边固定，左边自适应
+
+# stage1_task006
+[code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task006) 
+[demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task006/index.html)
+
+1. 利用border制作三角形
+`
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #10456b;
+`
+http://www.w3cplus.com/solution/border/border.html
+2. 在慕课网上学习了切图，利用photoshop学习前端切图
+    但是感觉自己此次还是没有完全还原设计图，主要是因为没有很细致的利用ps
+    中的标尺等工具来度量，导致我自己的页面有些地方宽高与设计图一致
+3. 熟练利用before和after伪类
