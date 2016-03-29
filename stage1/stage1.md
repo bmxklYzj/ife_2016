@@ -59,7 +59,7 @@ border-top-left-radius
 border-top-right-radius
 border-bottom-right-radius
 border-bottom-left-radius
-这四个属性合成的
+这四个属性合成的 
 
 ##关于水平垂直居中的问题：
 >参考资料
