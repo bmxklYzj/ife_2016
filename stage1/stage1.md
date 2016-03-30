@@ -55,10 +55,12 @@ img标签要在figure标签中,而figcatption标签其实就是图片下的
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task004/index.html)
 ##此次画1/4圆，开始还以为要用图片，后来发现可以用border-radius属性
 border-radius是由
+```
 border-top-left-radius
 border-top-right-radius
 border-bottom-right-radius
 border-bottom-left-radius
+```
 这四个属性合成的 
 
 ##关于水平垂直居中的问题：
@@ -73,47 +75,56 @@ border-bottom-left-radius
 * inline||inline-*用text-align:center
 * block元素用margin: 0 auto;
 * 多个block元素：先变成inline-block类型，然后text-align:center
- 如：`.div1,
-     .div2{
-     display:inline-block;
-     }
-     .container{
-     text-align:center;
-     }`
+ 如：
+ 
+```
+.div1,
+.div2 {
+    display:inline-block;
+}
+.container{
+    text-align:center;
+}
+```
+ 
 2. 垂直居中：
 * single line单行
     * 父元素没有高度，直接padding-top和padding-bottom设成相等的值就可以居中了
-    ` .container {
+    ``` 
+    .container {
      			width: 200px;
      			/*height: 300px;*/
      			background-color: #ccc;
      			padding-top: 150px;
      			padding-bottom: 150px;
-     		}`
+     		}
+    ```
     * 父元素有高度，把文字的line-height设成父元素的高度即可
-    `
-                            .center-text-trick {
-       height: 100px;
-       line-height: 100px;
-       white-space: nowrap;
-     }
-     `
+    ```
+    .center-text-trick {
+           height: 100px;
+           line-height: 100px;
+           white-space: nowrap;
+         }
+    ```
      
 * multiple line多行
     *   设置相同的padding-top和padding-bottom
     *   使用table-cell
-        `
+        ```
         display: table-cell;
         vertical-align: middle;
-        `
+        ```
+        
     *   使用flex只支持IE10+
-        `
+        ```
         display: flex;
         justify-content: center;
         flex-direction: column;
-        `
+        ```
+        
     *   使用before伪元素
-        `
+        ```
         .container {
             width: 300px;
             height: 300px;
@@ -130,9 +141,10 @@ border-bottom-left-radius
             display: inline-block;
             vertical-align: middle;
         }
-        `
+        ```
 *block垂直居中
-    * 高度已知，使用margin-top为本身高度一半的负值`
+    * 高度已知，使用margin-top为本身高度一半的负值
+    ```
     .parent {
       position: relative;
     }
@@ -142,9 +154,9 @@ border-bottom-left-radius
       height: 100px;
       margin-top: -50px; /* account for padding and border if not using box-sizing: border-box; */
     }
-    `
+    ```
     * 高度未知，使用transform: translateY(-50%)
-    `
+    ```
     .container {
         width: 600px;
         height: 600px;
@@ -164,38 +176,37 @@ border-bottom-left-radius
         -o-transform: translateY(-50%);
         transform: translateY(-50%);
     }
-    `
+    ```
     * 父元素使用flex布局,只支持IE10+
-    `
+    ```
     .parent {
       display: flex;
       flex-direction: column;
       justify-content: center;
     }
-    `
+    ```
 3. 水平垂直居中
     * 元素宽高已知
-    `
-    .parent {
-           position: relative;
-         }
-         
-        .child {
-           width: 300px;
-           height: 100px;
-           padding: 20px;
-         
-           position: absolute;
-           top: 50%;
-           left: 50%;
-         
-           margin: -70px 0 0 -170px;
-        }
-    `
+    
+    ```
+        .parent {
+                   position: relative;
+                 }
+                .child {
+                   width: 300px;
+                   height: 100px;
+                   padding: 20px;
+                 
+                   position: absolute;
+                   top: 50%;
+                   left: 50%;
+                 
+                   margin: -70px 0 0 -170px;
+                }
+    ```
     
     *   元素宽高未知
-    
-    `
+    ```
     .parent {
       position: relative;
     }
@@ -205,7 +216,7 @@ border-bottom-left-radius
       left: 50%;
       transform: translate(-50%, -50%);
     }
-    `
+    ```
     
 # stage1_task005
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task005) 
@@ -217,11 +228,11 @@ border-bottom-left-radius
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task006/index.html)
 
 1. 利用border制作三角形
-`
+```
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-bottom: 10px solid #10456b;
-`
+```
 http://www.w3cplus.com/solution/border/border.html
 2. 在慕课网上学习了切图，利用photoshop学习前端切图
     但是感觉自己此次还是没有完全还原设计图，主要是因为没有很细致的利用ps
