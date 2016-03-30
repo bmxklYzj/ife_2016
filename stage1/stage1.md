@@ -1,9 +1,9 @@
-#wram-up热身练习
+#wram-up 热身练习
  [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/warm-up) 
  [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task001/blog.html)
 主要是做了一个静态的博客，页面比较花哨
 
-# stage1_task001
+# stage1_task001 任务一：零基础HTML编码
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task001) 
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task001/index.html)
 
@@ -30,12 +30,12 @@ img标签要在figure标签中,而figcatption标签其实就是图片下的
 放在article之外使用作为页面或站点全局的附属信息部分。最典型的是侧边栏，其中的内容可以使友情链接，博客中的其它文章列表、广告单元等
 来自 <http://www.wangqi.com/html/2012-03/15271.htm> 
 
-# stage1_task002
+# stage1_task002 任务二：零基础HTML及CSS编码（一）
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task002) 
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task002/index.html)
     练习简单的css
 
-# stage1_task003
+# stage1_task003 任务三：三栏式布局
 ##经典的三栏自适应布局有三种：圣杯布局、双飞翼布局、直接flaot布局
 1. 双飞翼布局
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task003) 
@@ -50,7 +50,7 @@ img标签要在figure标签中,而figcatption标签其实就是图片下的
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task003) 
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task003/floatLayout.html)
 
-# stage1_task004
+# stage1_task004 任务四：定位和居中问题
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task004) 
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task004/index.html)
 ##此次画1/4圆，开始还以为要用图片，后来发现可以用border-radius属性
@@ -218,12 +218,12 @@ border-bottom-left-radius
     }
     ```
     
-# stage1_task005
+# stage1_task005 任务五：零基础HTML及CSS编码（二）
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task005) 
 [demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task005/index.html)
 在实验一的基础上修改，和实验二差不多，只是把框架改成了两栏布局，右边固定，左边自适应
 
-# stage1_task006
+# stage1_task006 任务六：通过HTML及CSS模拟报纸排版
 [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task006) 
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task006/index.html)
 
@@ -239,7 +239,7 @@ http://www.w3cplus.com/solution/border/border.html
     中的标尺等工具来度量，导致我自己的页面有些地方宽高与设计图一致
 3. 熟练利用before和after伪类
 
-# stage1_task008
+# stage1_task008 任务八：响应式网格（栅格化）布局
 [code](https://github.com/bmxklYzj/ife_2016/tree/master/stage1/stage1_task008) 
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task008/index.html)
 
