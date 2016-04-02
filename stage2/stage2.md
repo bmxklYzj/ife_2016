@@ -92,4 +92,6 @@ data.sort(function(x, y) {
 
 3. 事件代理，主要是要考虑到ie的兼容性（还有待深入学习）
     
-但就这个任务来说，还有很多需要改善，比如：低版本的ie时间监听，trim()(ie9+)，querySelector()(ie8+)
+但就这个任务来说，还有很多需要改善，比如：低版本ie的事件监听，trim()(ie9+)，querySelector()(ie8+)
+
+-[x] 多舒服啊

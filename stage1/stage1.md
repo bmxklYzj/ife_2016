@@ -1,10 +1,10 @@
 #wram-up 热身练习
- [code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/warm-up) 
+ [code](github.com/bmxklYzj/ife_2016/tree/master/demo/ife_2016/warm-up) 
  [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task001/blog.html)
 主要是做了一个静态的博客，页面比较花哨
 
 # stage1_task001 任务一：零基础HTML编码
-[code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task001) 
+[code](github.com/bmxklYzj/ife_2016/tree/master/stage1/stage1_task001) 
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task001/index.html)
 
 ## 学习到了html5的一些新标签，如article,section,figure,figcaption,aside,nav等
@@ -31,27 +31,27 @@ img标签要在figure标签中,而figcatption标签其实就是图片下的
 来自 <http://www.wangqi.com/html/2012-03/15271.htm> 
 
 # stage1_task002 任务二：零基础HTML及CSS编码（一）
-[code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task002) 
+[code](github.com/bmxklYzj/ife_2016/tree/master/stage1/stage1_task002) 
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task002/index.html)
     练习简单的css
 
 # stage1_task003 任务三：三栏式布局
 ##经典的三栏自适应布局有三种：圣杯布局、双飞翼布局、直接flaot布局
 1. 双飞翼布局
-[code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task003) 
+[code](https://github.com/bmxklYzj/ife_2016/tree/master/stage1/stage1_task003) 
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task003/index.html)
     双飞翼布局父元素加上min-width:500px可以防止极限情况下的混乱
 2. 圣杯布局
     因为.bd有个margin:0280px0180px;无法做到最外层的边框，所以放弃此布局
-[code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task003) 
+[code](https://github.com/bmxklYzj/ife_2016/tree/master/stage1/stage1_task003) 
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task003/shengBieLayout.html)
 3. 直接float
     左右分别float left、right写在前面，然后中间部分写在最后，加个margin即可
-[code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task003) 
+[code](https://github.com/bmxklYzj/ife_2016/tree/master/stage1/stage1_task003) 
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task003/floatLayout.html)
 
 # stage1_task004 任务四：定位和居中问题
-[code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task004) 
+[code](https://github.com/bmxklYzj/ife_2016/tree/master/stage1/stage1_task004) 
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task004/index.html)
 ##此次画1/4圆，开始还以为要用图片，后来发现可以用border-radius属性
 border-radius是由
@@ -219,12 +219,12 @@ border-bottom-left-radius
     ```
     
 # stage1_task005 任务五：零基础HTML及CSS编码（二）
-[code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task005) 
+[code](https://github.com/bmxklYzj/ife_2016/tree/master/stage1/stage1_task005) 
 [demo](http://bmxklyzj.github.io/demo/ife_2016/stage1/stage1_task005/index.html)
 在实验一的基础上修改，和实验二差不多，只是把框架改成了两栏布局，右边固定，左边自适应
 
 # stage1_task006 任务六：通过HTML及CSS模拟报纸排版
-[code](https://github.com/bmxklYzj/bmxklYzj.github.io/tree/master/demo/ife_2016/stage1/stage1_task006) 
+[code](https://github.com/bmxklYzj/ife_2016/tree/master/stage1/stage1_task006) 
 [demo](http://bmxklyzj.github.io/ife_2016/stage1/stage1_task006/index.html)
 
 1. 利用border制作三角形
