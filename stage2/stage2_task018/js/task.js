@@ -78,6 +78,7 @@ window.onload = function () {
     leftOut.addEventListener("click", function () {
         var tmp = array.shift();
         alert("左侧出" + tmp);
+        //console.log("lc");
         render();
     });
 

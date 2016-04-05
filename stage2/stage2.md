@@ -101,5 +101,11 @@ data.sort(function(x, y) {
 任务17有点难，有时间写，先做18了
 
 ## stage1_task0018 任务十八：基础JavaScript练习（一）
-[code](https://github.com/bmxklYzj/ife_2016/tree/master/stage2/stage2_task018) 
-[demo](http://bmxklyzj.github.io/ife_2016/stage2/stage2_task018/index.html)
+[code1](https://github.com/bmxklYzj/ife_2016/tree/master/stage2/stage2_task018) 
+[demo1](http://bmxklyzj.github.io/ife_2016/stage2/stage2_task018/index.html)
+
+[code1](https://github.com/bmxklYzj/ife_2016/tree/master/stage2/stage2_task018) 
+[demo1](http://bmxklyzj.github.io/ife_2016/stage2/stage2_task018/index02.html)
+我是先把数据存进数组里，然后render数组的
+也可以直接操作dom，而不用吧数据存进数组，感觉更简单
+用两种方式都做了
