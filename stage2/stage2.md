@@ -94,4 +94,12 @@ data.sort(function(x, y) {
     
 但就这个任务来说，还有很多需要改善，比如：低版本ie的事件监听，trim()(ie9+)，querySelector()(ie8+)
 
--[x] 多舒服啊
+## stage1_task0017 任务17：零基础JavaScript编码（四）
+[code](https://github.com/bmxklYzj/ife_2016/tree/master/stage2/stage2_task017) 
+[demo](http://bmxklyzj.github.io/ife_2016/stage2/stage2_task017/index.html)
+
+任务17有点难，有时间写，先做18了
+
+## stage1_task0018 任务十八：基础JavaScript练习（一）
+[code](https://github.com/bmxklYzj/ife_2016/tree/master/stage2/stage2_task018) 
+[demo](http://bmxklyzj.github.io/ife_2016/stage2/stage2_task018/index.html)
