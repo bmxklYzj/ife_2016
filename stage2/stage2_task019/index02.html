@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, height=device-height,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">-->
+    <title>satge2_task019</title>
+    <style>
+        body {
+            min-width: 1180px;
+        }
+        fieldset {
+            border-radius: 10px;
+        }
+        fieldset #text {
+            border-radius: 8px;
+        }
+        fieldset button {
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+        .wrap {
+            margin-top: 100px
+        }
+        .wrap span {
+            font-size: 10px;
+            display: inline-block;
+            width: 13px;
+            height: 60px;
+            background-color: #777;
+            margin-right: 5px;
+            vertical-align: bottom;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        #showNumCount {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<fieldset>
+    <legend>队列模拟</legend>
+    <input type="text" id="text">
+    <button id="leftIn">左侧入</button>
+    <button id="rightIn">右侧入</button>
+    <button id="leftOut" style="margin-left: 20px">左侧出</button>
+    <button id="rightOut">右侧出</button>
+    <button id="sort">排序</button>
+</fieldset>
+
+<div class="wrap"></div>
+<div id="showNumCount"></div>
+
+<script src="js/task02.js"></script>
+</body>
+</html>

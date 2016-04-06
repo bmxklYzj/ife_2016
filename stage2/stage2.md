@@ -121,9 +121,17 @@ data.sort(function(x, y) {
 比如我有一个run()方法，在setInterval()中调用，那么就用
 setInterval(run, msValue);
 setTimeout是一样的
+
+一定不要再方法后面加()，加了之后就不会有延迟而是直接执行函数了
 ```
 
 2. 事件代理：
 在父元素上设置监听事件，然后通过event.target来判断是那个子元素
 我们可以给每个子元素设置不同的id，然后通过判断event.target.id来判断具体的子元素
 
+换了种实现方式：第一种方式是一边排序，一边交换元素的位置，
+第二种方式是直接改变元素的高度，这样更加直观好看
+[code](https://github.com/bmxklYzj/ife_2016/tree/master/stage2/stage2_task019) 
+[demo](http://bmxklyzj.github.io/ife_2016/stage2/stage2_task019/index02.html)
+
+ 

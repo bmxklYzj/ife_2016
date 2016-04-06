@@ -144,49 +144,50 @@ function cmp(a, b) {
  */
 function bubbleSort() {
     var i = 0, j = 0, tmp, len = array.length;
-    /*for(i = 0; i < len -1; i++) {
-     for(j = 0; j < len-1; j++) {
-     if(array[j+1] > array[j]) {
-     tmp = array[j+1];
-     array[j+1] = array[j];
-     array[j] = tmp;
-     }
-     console.log(array.length);
-     var s = setTimeout(render(), 2000);
-     }
-     }*/
-    var s = setInterval(run, 5);
-    function run() {
-        if(i < len - 1) {
-            if(j < len - 1) {
-                if(array[j+1] > array[j]) {
-                    tmp = array[j+1];
-                    array[j+1] = array[j];
-                    array[j] = tmp;
-                }
-                j++;
-                console.log("asdf");
-                //setTimeout("run()", 10);
-                render();
-
-            } else {
-                i++;j = 0;
+    for (i = 0; i < len - 1; i++) {
+        for (j = 0; j < len - 1; j++) {
+            if (array[j + 1] > array[j]) {
+                tmp = array[j + 1];
+                array[j + 1] = array[j];
+                array[j] = tmp;
             }
-        } else {
-            clearInterval(s);
-            alert("排序完成！");
+            //console.log(array.length);
         }
     }
-    run();
-    //clearInterval(s);
 }
+
+function draw() {
+    var spans = wrap.querySelectorAll("span");
+    var i = 0, len = spans.length;
+    for(i = 0; i < len; i++) {
+        run(i);
+    }
+    function run(i) {
+        var height = parseInt(spans[i].style.height);
+        //console.log(height);
+        if(height > array[i]*3) {
+            height--;
+        } else if(height < array[i]*3) {
+            height++;
+        }
+        spans[i].style.height = height +"px";
+        spans[i].style.title = height + "px";
+        spans[i].style.innerHTML = height + "px";
+        setTimeout(function() {run(i)}, 50);
+    }
+
+}
+
+    //run();
+    //clearInterval(s);
 
 /**
  * 排序
  */
-buttons[4].addEventListener("click", function() {
-    console.log(array);
-    //array.sort(cmp); //排序可以直接用sort的，但是这里要可视化，所以就自己写方法吧
-    bubbleSort();
-    render();
-});
+ buttons[4].addEventListener("click", function() {
+     console.log(array);
+     //array.sort(cmp); //排序可以直接用sort的，但是这里要可视化，所以就自己写方法吧
+     bubbleSort();
+     //render();
+     draw();
+ });
