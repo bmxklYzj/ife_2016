@@ -104,8 +104,26 @@ data.sort(function(x, y) {
 [code1](https://github.com/bmxklYzj/ife_2016/tree/master/stage2/stage2_task018) 
 [demo1](http://bmxklyzj.github.io/ife_2016/stage2/stage2_task018/index.html)
 
-[code1](https://github.com/bmxklYzj/ife_2016/tree/master/stage2/stage2_task018) 
-[demo1](http://bmxklyzj.github.io/ife_2016/stage2/stage2_task018/index02.html)
+[code2](https://github.com/bmxklYzj/ife_2016/tree/master/stage2/stage2_task018) 
+[demo2](http://bmxklyzj.github.io/ife_2016/stage2/stage2_task018/index02.html)
 我是先把数据存进数组里，然后render数组的
 也可以直接操作dom，而不用吧数据存进数组，感觉更简单
 用两种方式都做了
+
+## stage1_task0019 任务十九：基础JavaScript练习（二）
+[code](https://github.com/bmxklYzj/ife_2016/tree/master/stage2/stage2_task019) 
+[demo](http://bmxklyzj.github.io/ife_2016/stage2/stage2_task019/index.html)
+
+ 
+1. setInterval()这个函数开始用错了，导致我卡了很久
+```
+正确用法是：
+比如我有一个run()方法，在setInterval()中调用，那么就用
+setInterval(run, msValue);
+setTimeout是一样的
+```
+
+2. 事件代理：
+在父元素上设置监听事件，然后通过event.target来判断是那个子元素
+我们可以给每个子元素设置不同的id，然后通过判断event.target.id来判断具体的子元素
+
