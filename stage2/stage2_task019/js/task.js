@@ -155,7 +155,7 @@ function bubbleSort() {
             var s = setTimeout(render(), 2000);
         }
     }*/
-    //var s = setInterval("run()", 1);
+    var s = setInterval(run, 5);
     function run() {
         if(i < len - 1) {
             if(j < len - 1) {
@@ -165,19 +165,19 @@ function bubbleSort() {
                     array[j] = tmp;
                 }
                 j++;
+                console.log("asdf");
+                //setTimeout("run()", 10);
                 render();
-                //console.log(j);
-                setTimeout(run, 1);
+
             } else {
                 i++;j = 0;
             }
         } else {
-            //clearInterval(s);
+            clearInterval(s);
             alert("排序完成！");
         }
     }
-
-
+    run();
     //clearInterval(s);
 }
 
